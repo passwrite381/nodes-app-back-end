@@ -6,8 +6,8 @@
   "scripts": {
     "start": "nodemon server.js",
     "lint": "eslint ./",
-    "start-prod": "NODE_ENV=production node ./src/server.js",
-    "start-dev": "nodemon ./src/server.js",
+    "start-prod": "NODE_ENV=production node server.js",
+    "start-dev": "nodemon server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
